@@ -1,7 +1,7 @@
 <template>
   <header-view></header-view>
   <div class="subVisual">
-    홈뷰입니다.
+    라이프
   </div>
 
   <div class="container content">
@@ -24,6 +24,18 @@ export default {
 
 </script>
 
-<style>
-
+<style lang="scss">
+    .subVisual{      
+        background: pink;
+        height: 200px;
+       
+        h3{
+            color: white;
+            font-style: 2em;
+            text-shadow: 0 0 10px rgba(0 0 0);
+        }
+    }
+    .aboutCon{
+        padding: 30px;
+    }
 </style>
